@@ -1,0 +1,49 @@
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown;
+
+}
+p {
+
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(8, 111, 111);
+}
+a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    
+
+}
+a {
+    color: rgb(150, 90, 12);
+    font-family: 'Rouge Script';
+    font-size: 25px;
+    text-decoration: none;
+}
+#what {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(101, 5, 136);
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+}
+body {
+    text-align: center;
+    background-color: rgb(2, 197, 139);
+    margin: 50px;
+}
+
+#back:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+#back {
+    text-decoration: underline;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}

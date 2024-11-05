@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV - Leo Fred F. Fernando</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    .container {
+      width: 60%;
+      margin: 20px auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      border-bottom: 2px solid #333;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+    .profile-photo {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid #333;
+    }
+    h1 {
+      font-size: 24px;
+      margin: 0;
+      color: #333;
+    }
+    h2 {
+      font-size: 18px;
+      margin-bottom: 5px;
+      border-bottom: 2px solid #333;
+      padding-bottom: 5px;
+    }
+    .contact-info, .section {
+      margin-bottom: 20px;
+    }
+    .section-title {
+      font-size: 18px;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: #be0f0f;
+      margin-bottom: 10px;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+    ul li {
+      margin: 5px 0;
+    }
+    .personal-data, .skills, .education {
+      margin-left: 15px;
+    }
+    .education-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .education-table th, .education-table td {
+      border: 1px solid #111111;
+      padding: 8px;
+      text-align: left;
+    }
+    .education-table th {
+      background-color: #24b400;
+    }
+    .character-reference p {
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <img src="data:image/jpeg;base64,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" alt="Profile Photo" class="profile-photo">
+      <h1>LEO FRED F. FERNANDO</h1>
+    </div>
+    <div class="contact-info">
+      <p>Brgy. Guinhaya-an, Looc, Romblon 5507</p>
+      <p>Contact Number: 09557429032 / 09106885972</p>
+      <p>Email address: leofernando.lff@gmail.com</p>
+    </div>
+
+    <div class="section">
+      <h2>Objective</h2>
+      <p>To be part of a company where, as a trainee, I could learn about field work in order to increase my knowledge that someday I could use to practice my profession as a Mechanical Engineer.</p>
+    </div>
+
+    <div class="section">
+      <h2>Personal Data</h2>
+      <ul class="personal-data">
+        <li>Birth date: June 11, 1995</li>
+        <li>Age: 23</li>
+        <li>Sex: Male</li>
+        <li>Height: 5'4"</li>
+        <li>Weight: 70 kg</li>
+        <li>Citizenship: Filipino</li>
+        <li>Birth Place: Looc, Romblon</li>
+        <li>Religion: Roman Catholic</li>
+        <li>Civil Status: Single</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Personal Skills</h2>
+      <ul class="skills">
+        <li>Computer Literate (MS Word, Excel, Powerpoint, etc.)</li>
+        <li>Good communication and interpersonal skills</li>
+        <li>Knowledgeable in operating office machines</li>
+        <li>Knowledgeable in manipulating machines</li>
+        <li>Can manage to work under pressure</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Educational Background</h2>
+      <table class="education-table">
+        <tr>
+          <th>Qualification</th>
+          <th>Major</th>
+          <th>Board/University</th>
+          <th>Marks/CGPA</th>
+          <th>Division</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>Ph.D.</td>
+          <td>CS</td>
+          <td>PU, Lahore</td>
+          <td>3.70/4.0</td>
+          <td>1st</td>
+          <td>2018</td>
+        </tr>
+        <tr>
+          <td>M.Sc.</td>
+          <td>CS</td>
+          <td>UAF, Faisalabad</td>
+          <td>3.42/4.0</td>
+          <td>1st</td>
+          <td>2010</td>
+        </tr>
+        <tr>
+          <td>Bachelors</td>
+          <td>CS</td>
+          <td>BZU, Multan</td>
+          <td>534/800</td>
+          <td>1st</td>
+          <td>2006</td>
+        </tr>
+        <tr>
+          <td>Intermediate</td>
+          <td>CS</td>
+          <td>BISE Faisalabad</td>
+          <td>615/1100</td>
+          <td>2nd</td>
+          <td>2004</td>
+        </tr>
+        <tr>
+          <td>Matriculation</td>
+          <td>Science</td>
+          <td>BISE Multan</td>
+          <td>612/850</td>
+          <td>1st</td>
+          <td>2002</td>
+        </tr>
+        <tr>
+          <td>B.Ed.</td>
+          <td>Arts</td>
+          <td>AIOU, Islamabad</td>
+          <td>582/900</td>
+          <td>1st</td>
+          <td>2007</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="section character-reference">
+      <h2>Character Reference</h2>
+      <p>Mrs. Charmaine F. Fetalver</p>
+      <p>Mechanical Engineer/Instructor (Romblon State University)</p>
+      <p>Contact Number: (+63) 927-952-8270</p>
+      <br>
+      <p>Engr. Christian Mortel</p>
+      <p>Mechanical Engineer/Instructor (Romblon State University)</p>
+      <p>Contact Number: (+63) 907-715-7591</p>
+    </div>
+  </div>
+</body>
+</html>
